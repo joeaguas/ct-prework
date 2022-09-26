@@ -57,11 +57,4 @@ def is_consecutive(a_list):
         else:
             consecutive = False
     return consecutive
-
-print("Testing Question 5")
-test_list_a = [2,3,4,5,6,7]
-test_list_b = [1,2,4,5]
-
-print(is_consecutive(test_list_a))
-print(is_consecutive(test_list_b))
-            
+           
